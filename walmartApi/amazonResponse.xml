@@ -1,0 +1,77 @@
+<?xml version="1.0" ?>
+<ItemLookupResponse
+    xmlns="http://webservices.amazon.com/AWSECommerceService/2011-08-01">
+    <OperationRequest>
+        <HTTPHeaders>
+            <Header Name="UserAgent" Value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36"></Header>
+        </HTTPHeaders>
+        <RequestId>e5e8302b-0d04-4363-a8d5-d4ab1d3d39ec</RequestId>
+        <Arguments>
+            <Argument Name="AWSAccessKeyId" Value="AKIAIK6DBS7UDLEGTRPQ"></Argument>
+            <Argument Name="AssociateTag" Value="583213496910"></Argument>
+            <Argument Name="IdType" Value="UPC"></Argument>
+            <Argument Name="ItemId" Value="064442201173"></Argument>
+            <Argument Name="Operation" Value="ItemLookup"></Argument>
+            <Argument Name="ResponseGroup" Value="OfferSummary,SalesRank"></Argument>
+            <Argument Name="SearchIndex" Value="All"></Argument>
+            <Argument Name="Service" Value="AWSECommerceService"></Argument>
+            <Argument Name="Timestamp" Value="2016-12-27T20:52:41.000Z"></Argument>
+            <Argument Name="Signature" Value="dG07L5ldGn4NIkkhiYBgfFZBW1Mj1zuTM6fNTovNoJk="></Argument>
+        </Arguments>
+        <RequestProcessingTime>0.0383646640000000</RequestProcessingTime>
+    </OperationRequest>
+    <Items>
+        <Request>
+            <IsValid>True</IsValid>
+            <ItemLookupRequest>
+                <IdType>UPC</IdType>
+                <ItemId>064442201173</ItemId>
+                <ResponseGroup>OfferSummary</ResponseGroup>
+                <ResponseGroup>SalesRank</ResponseGroup>
+                <SearchIndex>All</SearchIndex>
+                <VariationPage>All</VariationPage>
+            </ItemLookupRequest>
+        </Request>
+        <Item>
+            <ASIN>B00BSWS650</ASIN>
+            <ParentASIN>B00D8HJL84</ParentASIN>
+            <SalesRank>5321</SalesRank>
+            <OfferSummary>
+                <LowestNewPrice>
+                    <Amount>1960</Amount>
+                    <CurrencyCode>USD</CurrencyCode>
+                    <FormattedPrice>$19.60</FormattedPrice>
+                </LowestNewPrice>
+                <LowestCollectiblePrice>
+                    <Amount>2995</Amount>
+                    <CurrencyCode>USD</CurrencyCode>
+                    <FormattedPrice>$29.95</FormattedPrice>
+                </LowestCollectiblePrice>
+                <TotalNew>60</TotalNew>
+                <TotalUsed>0</TotalUsed>
+                <TotalCollectible>1</TotalCollectible>
+                <TotalRefurbished>0</TotalRefurbished>
+            </OfferSummary>
+        </Item>
+        <Item>
+            <ASIN>B00E8K8H94</ASIN>
+            <SalesRank>405559</SalesRank>
+            <OfferSummary>
+                <LowestNewPrice>
+                    <Amount>2366</Amount>
+                    <CurrencyCode>USD</CurrencyCode>
+                    <FormattedPrice>$23.66</FormattedPrice>
+                </LowestNewPrice>
+                <LowestCollectiblePrice>
+                    <Amount>3000</Amount>
+                    <CurrencyCode>USD</CurrencyCode>
+                    <FormattedPrice>$30.00</FormattedPrice>
+                </LowestCollectiblePrice>
+                <TotalNew>9</TotalNew>
+                <TotalUsed>0</TotalUsed>
+                <TotalCollectible>1</TotalCollectible>
+                <TotalRefurbished>0</TotalRefurbished>
+            </OfferSummary>
+        </Item>
+    </Items>
+</ItemLookupResponse>

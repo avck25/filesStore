@@ -1,0 +1,137 @@
+	
+		* {
+				box-sizing: border-box;
+				
+		}
+		
+		h1 {
+				color: #4DB6AC;
+				font-size:54px;
+		
+		}
+		
+		div {
+			text-align: center;
+		}
+		
+		#appDiv {
+			color: green;
+		}
+				
+				body{
+    background-color: black;
+    color: white;
+}
+		a {
+			text-decoration:none;
+		}
+		a:link{
+			color:turquoise;
+		}
+		
+		a:visited{
+			color:red
+		}
+		
+		a:hover
+		{
+			text-decoration:underline
+		}
+	p {
+		color:white;
+		}
+		
+	header {
+		/*text-align:center;*/
+		background-image: url(&quot;pictures/moonlight.png&quot;);
+    width: 1888px;
+    height: 662px;
+    background-size: cover;
+	}
+	
+	#mainP {
+		text-align:center;
+		
+	}
+	
+	body {
+		text-align: center;
+	}
+	
+	img {
+		
+		height:300px;
+		width:600px;
+	}
+	
+	.menuItem {
+		width:200px;
+		height:200px;
+		
+	}
+	
+	footer {
+		text-align:center;
+	}
+	
+	.menu {
+		width:100px;
+		height:100px;
+		float:left;
+	}
+	
+	.apps , .entree , .desserts {
+		display:inline-block;
+		float: left;
+		
+	}
+	
+	.apps {
+		    margin: 41px 0px 38px 82px;
+	}
+	
+	.entree {
+		    margin: 41px 0px 38px 148px;
+	}
+	
+	.desserts{
+		margin: 41px 0px 38px 252px;
+	}
+	
+	#titleEntree {
+		    margin-left: 54px;
+	}
+	
+	#titleDessert {
+		margin-left: 185px
+	}
+	
+	#aboutText {
+		font-size: 35px;
+		text-shadow: 4px 15px 11px yellow;
+	}
+
+	
+	
+	#titleApps, #titleEntree, #titleDessert {
+		padding: auto;
+		clear: left;
+		width: 127px;
+		height: 68px;
+		background-color: #81D4FA;
+		color: red;
+		border: 2px solid red;
+		background: linear-gradient(45deg, orange 25%,blue 50%,yellow 100%);
+		width: 181px;
+		border-radius: 35px;
+		
+	}
+	
+	.menu:hover {
+		width: 600px;
+		height: 600px;
+	}
+	
+
+
+			
